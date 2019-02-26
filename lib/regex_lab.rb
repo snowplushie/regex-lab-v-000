@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
   
-  word.match(/^[AEIOUaeiou]\w+/)? true : false
+  word.match(/^[AEIOUaeiou]\w+/)? true:false
 
 end
 
@@ -18,7 +18,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   
-  text.match(/^[A-Z].+[.,/\!?])? true : false
+  text.match(/^[A-Z].+[.,/\!?])? true:false
 
 end
 
